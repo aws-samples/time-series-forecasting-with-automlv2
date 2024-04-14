@@ -1,0 +1,16 @@
+*.
+*.aws
+*.cache
+*.canvas
+*.config
+*.data-wrangler
+*.gitconfig
+*.ipynb_checkpoints
+*.ipython
+*.jupyter
+*.local
+config/*.
+config/.ipynb_checkpoints/filling_config-checkpoint.py
+config/.ipynb_checkpoints/filling_config-checkpoint.py
+.venv
+__pycache__
