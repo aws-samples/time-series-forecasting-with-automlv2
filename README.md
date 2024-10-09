@@ -17,7 +17,7 @@ Time series forecasting is crucial across many fields for making informed decisi
 ### Setup
 
 1. Clone this repository to your local machine or SageMaker environment:
-`https://github.com/mccartni-aws/automlv2-time-series.git`
+`https://github.com/aws-samples/time-series-forecasting-with-automlv2`
 
 2. Open SageMaker Studio or Notebook Instance and navigate to the cloned repository directory.
 
