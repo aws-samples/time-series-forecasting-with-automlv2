@@ -103,7 +103,7 @@ Value ['location_code']: This setting means that forecasts will be g
 
 Amazon SageMaker Real-Time Endpoint Inference offers the capability to deliver immediate predictions from deployed machine learning models, crucial for scenarios demanding quick decision-making. When an application sends a request to a SageMaker real-time endpoint, it processes the data on-the-fly and returns the prediction instantly. This setup is optimal for use cases requiring instant responses such as personalized content delivery, immediate fraud detection, and live anomaly detection.
 
-**2. SageMaker Asynchronous Inference
+**2. SageMaker Asynchronous Inference**
 
 While typically used for batch processing with larger payloads and longer processing times, SageMaker Asynchronous Inference can also complement real-time inference scenarios where the immediacy of a response is less critical, or payloads are too large for standard real-time endpoints. Asynchronous Inference involves submitting inference requests to a queue; SageMaker processes these requests as they come in. It’s particularly useful for handling variable load patterns efficiently, enabling autoscaling to minimize costs without compromising the ability to handle bursts of inference requests effectively. This approach is suited for applications that can tolerate near real-time latencies but occasionally require processing larger data sizes or complex models that would benefit from asynchronous handling to ensure scalability and cost-effectiveness.
 
