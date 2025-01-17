@@ -2,6 +2,8 @@
 
 This repository contains a comprehensive example of time series forecasting using SageMaker's AutoMLV2 for automated machine learning. The included Jupyter notebook (`automlv2_forecasting.ipynb`), the inference pipeline script (`automlv2_inference_pipeline.py`), and the evaluation script (`evaluation.py`) demonstrate the process of preparing data, configuring an AutoML job for time series forecasting, deploying the model, and evaluating its performance.
 
+This code repo is associated with the AWS ML Blog [Time series forecasting with Amazon SageMaker AutoML](https://aws.amazon.com/blogs/machine-learning/time-series-forecasting-with-amazon-sagemaker-automl/) 
+
 ## Why Time Series Forecasting is Important
 
 Time series forecasting is crucial across many fields for making informed decisions based on predictions of future values of time-dependent data. This can include forecasting demand for products, predicting stock prices, estimating energy consumption, and many other applications where understanding future trends based on past data is valuable. Effective forecasting can lead to optimized operations, reduced costs, and better planning strategies.
